@@ -52,10 +52,11 @@ function Review() {
               </div>
               <div>
                 <p className="mb-5">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                  officiis natus at eius corporis. Adipisci culpa accusamus, ut
-                  mollitia, voluptatibus, est magni dolorum eveniet rerum
-                  aliquam facilis natus. Quibusdam, accusamus!
+                  Absolutely love Read Spot! The atmosphere is so cozy and
+                  inviting, perfect for curling up with a good book and a cup of
+                  coffee. The staff is always friendly and knowledgeable, and
+                  I've discovered so many new favorite reads thanks to their
+                  recommendations. Highly recommend for any book lover
                 </p>
                 <Avatar
                   img={ProPic}

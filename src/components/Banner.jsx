@@ -1,5 +1,6 @@
 import React from "react";
 import BannerCard from "../home/BannerCard";
+import FavBookImg from "../assets/favoritebook.jpg";
 
 function Banner() {
   return (
@@ -14,9 +15,7 @@ function Banner() {
             Welcome to Read Spot, your personal book inventory manager! Whether
             you're an avid reader, a book collector, or a library curator,Read
             Spot is your one-stop solution for organizing and managing your book
-            collection effortlessly. With intuitive features, such as easy book
-            insertion, categorization by genre, author, or series, and seamless
-            updates, you can keep track of your favorite reads with ease.
+            collection effortlessly.
           </p>
           <div>
             <input
@@ -31,8 +30,8 @@ function Banner() {
             </button>
           </div>
         </div>
-        <div>
-          <BannerCard />
+        <div className="md:w-1/2">
+          <img src={FavBookImg} alt="" className="rounded md:w-10/12" />
         </div>
       </div>
     </div>
