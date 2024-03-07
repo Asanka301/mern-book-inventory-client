@@ -60,7 +60,7 @@ function UploadBook() {
     };
     console.log(bookObj);
 
-    fetch("http://localhost:5000/upload-book", {
+    fetch("https://mern-book-inventory-server.onrender.com/upload-book", {
       method: "POST",
       headers: {
         "Content-type": "application/json",

@@ -70,7 +70,7 @@ const EditBooks = () => {
       bookPDFURL,
     };
 
-    // fetch("http://localhost:5000/upload-book", {
+    // fetch("https://mern-book-inventory-server.onrender.com/upload-book", {
     //   method: "POST",
     //   headers: {
     //     "Content-type": "application/json",
@@ -83,7 +83,7 @@ const EditBooks = () => {
     //     form.reset();
     //   });
 
-    fetch(`http://localhost:5000/book/${id}`, {
+    fetch(`https://mern-book-inventory-server.onrender.com/book/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

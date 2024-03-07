@@ -5,13 +5,13 @@ function ManageBooks() {
   const [allBooks, setAllBooks] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/all-books")
+    fetch("https://mern-book-inventory-server.onrender.com/all-books")
       .then((res) => res.json())
       .then((data) => setAllBooks(data));
   }, []);
 
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/book/${id}`, {
+    fetch(`https://mern-book-inventory-server.onrender.com/book/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
