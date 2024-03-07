@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Card } from "flowbite-react";
 
 function Shop() {
   const [books, setBooks] = useState([]);
@@ -9,25 +8,40 @@ function Shop() {
       .then((res) => res.json())
       .then((data) => setBooks(data));
   }, []);
-  return (
-    <div className="mt-28 px-4 lg:px24">
-      <h2 className="text-5xl font-bold text-center">All Books are here</h2>
 
-      <div className="grid gap-8 my-12 lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 grod-cols-1 bg-white">
+  // Function to slice description for 20 words
+  const sliceDescription = (description) => {
+    const words = description.split(" ");
+    return words.slice(0, 20).join(" ");
+  };
+
+  return (
+    <div className="mt-28 px-4  lg:px-24">
+      <h2 className="text-3xl font-bold text-center mb-8">
+        All Books are Here
+      </h2>
+
+      <div className="grid gap-8 my-12 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
         {books.map((book) => (
-          <Card className="" key={book._id}>
-            <img src={book.imageURL} alt="" className="h-126" />
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              <p>{book.bookTitle}</p>
-            </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
-            </p>
-            <button className="bg-blue-700 font-semibold text-white py-2 rounded">
-              Buy Now
-            </button>
-          </Card>
+          <div
+            key={book._id}
+            className="bg-white shadow-md rounded-lg overflow-hidden"
+          >
+            <img
+              src={book.imageURL}
+              alt={book.bookTitle}
+              className="h-72 w-full object-cover"
+            />
+            <div className="p-6">
+              <h5 className="text-xl font-bold mb-2">{book.bookTitle}</h5>
+              <p className="text-gray-700">
+                {sliceDescription(book.bookDescription)}...
+              </p>
+              <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+                Buy Now
+              </button>
+            </div>
+          </div>
         ))}
       </div>
     </div>

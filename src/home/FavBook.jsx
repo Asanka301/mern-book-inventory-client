@@ -11,13 +11,14 @@ function FavBook() {
 
       <div className="md:w-1/2 space-y-6">
         <h2 className="text-5xl font-bold my-5 md:w-3/4 leading-snug">
-          Find Your Favorite <span className="text-blue-700">Book Here</span>
+          Find Your Dream <span className="text-blue-700">Book Here</span>
         </h2>
         <p className="mb-10 text-lg md:w-5/6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-          doloremque recusandae labore nobis optio tempore culpa unde
-          consequatur commodi a ducimus similique distinctio reprehenderit
-          quidem! Sed omnis id quae eum.
+          Welcome to Read Spot, your go-to destination for all things literary!
+          At Read Spot, we believe in the power of stories to inspire, educate,
+          and entertain. Our passion for books drives everything we do, from
+          curating the latest bestsellers to creating a cozy reading environment
+          for book lovers of all ages.
         </p>
         <div className="flex flex-col sm:flex-row justify-between gap-6 md:w-3/4 my-14">
           <div>

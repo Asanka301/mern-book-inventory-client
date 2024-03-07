@@ -44,7 +44,7 @@ const SideBar = () => {
         <li>
           <Link
             to="/admin/dashboard/upload"
-            className="flex items-center px-4 py-2 text-m hover:bg-gray-100"
+            className="flex items-center px-4 py-2 text-m  hover:bg-gray-100"
           >
             <FaUpload className="mr-2" /> Upload Book
           </Link>

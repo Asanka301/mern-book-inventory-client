@@ -98,7 +98,7 @@ function UploadBook() {
               placeholder="Book name"
               required
               type="text"
-              className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+              className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full border shadow-sm sm:text-sm border-gray-300 "
             />
           </div>
           <div className="lg:w-1/2">
@@ -116,7 +116,7 @@ function UploadBook() {
               placeholder="Author Name"
               required
               type="text"
-              className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+              className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border border-gray-300 "
             />
           </div>
         </div>
@@ -137,7 +137,7 @@ function UploadBook() {
               placeholder="Book Image URL"
               required
               type="text"
-              className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+              className="mt-1 focus:ring-indigo-500 border focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 "
             />
           </div>
           <div className="lg:w-1/2">
@@ -179,7 +179,7 @@ function UploadBook() {
             name="bookDescription"
             placeholder="Your Book Description..."
             required
-            className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+            className="mt-1 focus:ring-indigo-500 border focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 "
             rows={6}
           />
         </div>
@@ -199,7 +199,7 @@ function UploadBook() {
             type="text"
             placeholder="Book PDF URL"
             required
-            className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+            className="mt-1 focus:ring-indigo-500 border focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 "
           />
         </div>
 

@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 //icons
-import { FaBarsStaggered, FaBlog, FaXmark } from "react-icons/fa6";
+import { FaBarsStaggered, FaXmark, FaBook } from "react-icons/fa6";
 import { AuthContext } from "../contexts/AuthProvide";
 
 function Navbar() {
@@ -50,8 +50,8 @@ function Navbar() {
             to="/"
             className="text-2xl font-bold text-blue-700 flex items-center gap-2"
           >
-            <FaBlog className="inline-block" />
-            Books
+            <FaBook className="inline-block" />
+            Read Spot
           </Link>
 
           <ul className="md:flex space-x-12 hidden">

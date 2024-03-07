@@ -78,10 +78,11 @@ function Review() {
               </div>
               <div>
                 <p className="mb-5">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                  officiis natus at eius corporis. Adipisci culpa accusamus, ut
-                  mollitia, voluptatibus, est magni dolorum eveniet rerum
-                  aliquam facilis natus. Quibusdam, accusamus!
+                  Absolutely love Read Spot! The atmosphere is so cozy and
+                  inviting, perfect for curling up with a good book and a cup of
+                  coffee. The staff is always friendly and knowledgeable, and
+                  I've discovered so many new favorite reads thanks to their
+                  recommendations. Highly recommend for any book lover
                 </p>
                 <Avatar
                   img={ProPic}
@@ -104,10 +105,10 @@ function Review() {
               </div>
               <div>
                 <p className="mb-5">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                  officiis natus at eius corporis. Adipisci culpa accusamus, ut
-                  mollitia, voluptatibus, est magni dolorum eveniet rerum
-                  aliquam facilis natus. Quibusdam, accusamus!
+                  Read Spot is my go-to bookstore in town. I appreciate their
+                  diverse selection of books across genres, including
+                  lesser-known titles and local authors. The reading nooks are
+                  perfect for escaping the hustle and bustle of the city,
                 </p>
                 <Avatar
                   img={ProPic}
@@ -130,10 +131,10 @@ function Review() {
               </div>
               <div>
                 <p className="mb-5">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                  officiis natus at eius corporis. Adipisci culpa accusamus, ut
-                  mollitia, voluptatibus, est magni dolorum eveniet rerum
-                  aliquam facilis natus. Quibusdam, accusamus!
+                  I stumbled upon Read Spot while exploring the neighborhood,
+                  and I'm so glad I did! The store has such a charming ambiance,
+                  and I love browsing through their carefully curated collection
+                  of books. The staff is incredibly helpful and passionate
                 </p>
                 <Avatar
                   img={ProPic}
@@ -157,10 +158,11 @@ function Review() {
               </div>
               <div>
                 <p className="mb-5">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                  officiis natus at eius corporis. Adipisci culpa accusamus, ut
-                  mollitia, voluptatibus, est magni dolorum eveniet rerum
-                  aliquam facilis natus. Quibusdam, accusamus!
+                  I stumbled upon Read Spot while exploring the neighborhood,
+                  and I'm so glad I did! The store has such a charming ambiance,
+                  and I love browsing through their carefully curated collection
+                  of books. The staff is incredibly helpful and passionate about
+                  literature, making every visi
                 </p>
                 <Avatar
                   img={ProPic}
