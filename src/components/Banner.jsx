@@ -11,10 +11,12 @@ function Banner() {
             <span className="text-blue-700">for the Best prices</span>
           </h2>
           <p className="md:w-4/5">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
-            dolorem dicta vero accusamus nostrum pariatur sunt illo cupiditate
-            quod quam harum maiores natus, inventore, minima ipsam molestiae
-            culpa cumque ipsum.
+            Welcome to Read Spot, your personal book inventory manager! Whether
+            you're an avid reader, a book collector, or a library curator,Read
+            Spot is your one-stop solution for organizing and managing your book
+            collection effortlessly. With intuitive features, such as easy book
+            insertion, categorization by genre, author, or series, and seamless
+            updates, you can keep track of your favorite reads with ease.
           </p>
           <div>
             <input
